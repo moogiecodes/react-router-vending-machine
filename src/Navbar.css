@@ -1,0 +1,21 @@
+nav {
+  display: inline-block;
+  width: 100vw;  
+  text-align: center;
+  background-color: aquamarine;
+}
+nav > span {
+  float: left;
+}
+.navClass a {
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 0 15px;
+  color: black;
+}
+.navClass a:hover {
+  background-color: white;
+}
+.navClass a.active {
+  background-color: gray;
+}
